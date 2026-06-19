@@ -15,12 +15,6 @@ type (
     Stage func (data any) (any, error)
 )
 
-func Stage {
-    out = make(chan interface{})
-    go func() { /* Some work */ }()
-    return out
-}
-
 type Pipeline interface {
 	ExecutePipeline(ctx context.Context, in In, stages ...Stage) Out
 }
