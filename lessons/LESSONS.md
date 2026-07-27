@@ -73,6 +73,8 @@ Wiki-проект с разбором кода от AI
 
 ### Упражнения
 * [Структуры данных](../tasks/data-structures.md)
+* [Упаковка и распаковка строк](../tasks/strings-pack.md)
+* [Стрингификация переменной](../tasks/stringify.md)
 
 ## Занятие 3. Hashmap
 
