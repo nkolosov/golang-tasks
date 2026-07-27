@@ -1,24 +1,39 @@
 # Общие материалы для подготовки
 
 ## Основы
-Основы Go на официальном сайте https://go.dev/learn/
+Основы Go на официальном сайте 
+* https://go.dev/learn/
 
-Прохождение Go Tour https://go.dev/tour/
+Прохождение Go Tour
+* https://go.dev/tour/
+
+Go By Examples
+* https://gobyexample.com/
+
+Go 101
+* https://go101.org/
 
 ## Официальная документация
 https://go.dev/doc/
 
-Более подробная документация по внутренностям языка https://go.dev/doc/effective_go
+Более подробная документация по внутренностям языка 
+* https://go.dev/doc/effective_go
+* Go: Under the Hood https://golang.design/under-the-hood/en/
+
+Wiki-проект с разбором кода от AI 
+* https://deepwiki.com/golang/go/1-overview-of-go
 
 ## Литература
+
+Знаком **(!)** отмечены максимально рекомендуемы к ознакомлению книги
 
 ### По языку
 * Язык программирования Go, Алан А.А. Донован, Брайан У.Керниган
 * Golang для профи. Михалис Цукалос.
-* Go: идиомы и паттерны проектирования. Джон Боднер
+* **(!) Go: идиомы и паттерны проектирования.** Джон Боднер
 
 ### Алгоритмы и структуры данных
-* Грокаем алгоритмы. Адидтья Бхаргава.
+* **(!) Грокаем алгоритмы.** Адидтья Бхаргава.
 * Совершенный алгоритм. Тим Рафгарден.
 * Продвинутые алгоритмы и структуры данных. М. Ла. Рокка
 
@@ -33,7 +48,7 @@ https://go.dev/doc/
 * Создание микросервисов. Сэм Ньюмен.
 * Микросервисы. Крис Ричардсон.
 * Высоконагруженные приложения. Программирование. Масштабирование. Поддержка. М. Клеппман.
-* System Design. Подготовка к сложному интервью. Алекс Сюй.
+* **(!) System Design. Подготовка к сложному интервью.** Алекс Сюй.
 
 ### Технологии
 * PostgreSQL 16 изнутри. Егор Рогов.
@@ -41,7 +56,7 @@ https://go.dev/doc/
 
 ### Observability
 * Site Reliability Engineering. Надежность и безопасность как в Google. Бетси Бейер, Крис Джоунс, Дженнифер Петофф, Нейл Ричард Мёрфи.
-* Site Reliability Workbook: практическое применение. Бетси Бейер, Нейл Ричард Мёрфи, Дэвид Рензин, Кент Кавахара, Стивен Торн
+* **(!) Site Reliability Workbook: практическое применение.** Бетси Бейер, Нейл Ричард Мёрфи, Дэвид Рензин, Кент Кавахара, Стивен Торн
 
 # Занятия
 
@@ -50,52 +65,53 @@ https://go.dev/doc/
 [Материалы](L1_basic.md)
 
 ### Упражнения
-[Геометрия](../tasks/geometry.md)
+* [Геометрия](../tasks/geometry.md)
 
 ## Занятие 2. Массивы и срезы.
 
 [Материалы](L2_slices.md)
 
 ### Упражнения
-[Структуры данных](../tasks/data-structures.md)
+* [Структуры данных](../tasks/data-structures.md)
 
 ## Занятие 3. Hashmap
 
 [Материалы](L3_maps.md)
 
 ### Упражнения
-[Множество](../tasks/set.md)
-[LRU Cache](../tasks/lru-cache.md)
+* [Множество](../tasks/set.md)
+* [LRU Cache](../tasks/lru-cache.md)
 
 ## Занятие 4. Go Runtime. Работа ОС.
 
 [Материалы](L4_os_runtime.md)
+
 ### Упражнения
-[Число Пи](../tasks/pi.md)
-[Семафоры](../tasks/semaphore.md)
+* [Число Пи](../tasks/pi.md)
+* [Семафоры](../tasks/semaphore.md)
 
 ## Занятие 5. Go Runtime
 
 [Материалы](L5_go_runtime.md)
 
 ### Упражнения
-[Worker Pool](../tasks/worker-pool.md)
-[Cache with TTL](../tasks/concurrently/cache-ttl.md)
+* [Worker Pool](../tasks/worker-pool.md)
+* [Cache with TTL](../tasks/concurrently/cache-ttl.md)
 
 ## Занятие 6. Синхронизация горутин.
 
 [Материалы](L6_goroutines_sync.md)
 
 ### Упражнения
-[Объединение каналов](../tasks/merge-done-channel.md)
-[Pipeline](../tasks/pipeline.md)
+* [Объединение каналов](../tasks/merge-done-channel.md)
+* [Pipeline](../tasks/pipeline.md)
 
 ## Занятие 7. Обработка ошибок. Отложенная обработка
 
 [Материалы](L7_errors.md)
 
 ### Упражнения
-[Планировщик задач](../tasks/concurrently/scheduler.md)
+* [Планировщик задач](../tasks/concurrently/scheduler.md)
 
 
 

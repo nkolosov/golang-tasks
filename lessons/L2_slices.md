@@ -49,7 +49,6 @@ https://www.geeksforgeeks.org/dsa/linked-list-vs-array/
 
 https://medium.com/@alejandro.itoaramendia/arrays-vs-linked-lists-a-complete-guide-bc23c0ab0e7c
 
-
 ### Стек
 https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 

@@ -16,3 +16,6 @@
 Мониторинг. 4 золотых сигнала.
 
 Паттерны Health Check. Circuit Breaker. Graceful Shutdown.
+
+## Обработка ошибок в Go
+* https://golang.design/under-the-hood/en/part2lang/ch07errors/
