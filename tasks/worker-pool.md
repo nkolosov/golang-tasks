@@ -2,7 +2,7 @@
 Необходимо написать функцию для параллельного выполнения заданий в N параллельных горутинах:
 
 ```go
-package worker_pool
+package workerpool
 
 import (
     "errors"

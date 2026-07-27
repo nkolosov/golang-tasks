@@ -10,7 +10,7 @@ var Or func(channels ...<-chan any) <-chan any
 Пример использования функции
 
 ```go
-package example
+package main
 
 import (
 	"channel"
@@ -18,7 +18,7 @@ import (
 	"time"
 )
 
-func foo() {
+func main() {
 	sig := func(after time.Duration) <-chan any {
 		c := make(chan any)
 		go func() {
