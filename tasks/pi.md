@@ -4,8 +4,10 @@
 ```go
 package calculator
 
+import "context"
+
 type Calculator interface {
-	Calculate() float64
+	Calculate(ctx context.Context) float64
 }
 ```
 
