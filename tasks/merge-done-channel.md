@@ -4,7 +4,9 @@
 ```go
 package syncutils
 
-var Or func(channels ...<-chan any) <-chan any
+func Or(channels ...<-chan any) <-chan any {
+	return nil
+}
 ```
 
 Пример использования функции
@@ -13,7 +15,7 @@ var Or func(channels ...<-chan any) <-chan any
 package main
 
 import (
-	"channel"
+	"syncutils"
 	"fmt"
 	"time"
 )
