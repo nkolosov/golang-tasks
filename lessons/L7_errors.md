@@ -1,4 +1,5 @@
-# Занятие 7. Обработка ошибок. Отложенная обработка
+# Занятие 7. Обработка ошибок.
+
 Ошибки. Работа с ошибками в Go. Паттерны многопоточной обработки ошибок.
 
 `errors.New` / `fmt.Errorf`
@@ -12,5 +13,6 @@
 Логирование, трассировка (OpenTracing), OpenTelemetry, Sentry.
 
 Метрики (Prometheus). SLA / SLI / SLO.
+Мониторинг. 4 золотых сигнала.
 
-Паттерны Health Check. Circuit Breaker.
+Паттерны Health Check. Circuit Breaker. Graceful Shutdown.
