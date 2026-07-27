@@ -2,7 +2,7 @@
 
 Реализовать несколько (не менее трёх) вариантов семафора с общим интерфейсом и тесты для них
 ```go
-package semaphore
+package syncutils
 
 import "context"
 

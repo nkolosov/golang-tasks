@@ -2,7 +2,7 @@
 
 Реализовать функцию, которая будет объединять один или более done-каналов в single-канал, если один из его составляющих каналов закроется, то закроется и он сам.
 ```go
-package channel
+package syncutils
 
 var Or func(channels ...<-chan any) <-chan any
 ```
@@ -29,7 +29,7 @@ func main() {
 	}
 
 	start := time.Now()
-	<-channel.Or(
+	<-syncutils.Or(
 		sig(2*time.Hour),
 		sig(5*time.Minute),
 		sig(1*time.Second),
